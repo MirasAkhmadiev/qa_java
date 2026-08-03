@@ -21,3 +21,16 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Maven: ignore build files, but keep JaCoCo report
+target/*
+!target/site/
+target/site/*
+!target/site/jacoco/
