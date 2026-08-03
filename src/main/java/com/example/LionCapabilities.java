@@ -1,5 +1,8 @@
 package com.example;
 
-public interface LionAvailables {
+import java.util.List;
+
+public interface LionCapabilities {
     public int getKittens();
+    public List<String> getFood(String animalKind) throws Exception;
 }
